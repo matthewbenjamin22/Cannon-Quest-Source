@@ -1,10 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
-//currentAttractor = instance_find(obj_sun, 0);
+/// @description Sets up generic Physics Object
+
+
 currentAttractor = noone;
-distanceToAttractor = 0;//calcDistance(x, y, currentAttractor.x, currentAttractor.y);
+distanceToAttractor = 0;
 name = "null";
 
-hspeed = 0;
-vspeed = 0;
-stepCheck = 0;
+hspeed = 0.0000000000000;
+vspeed = 0.0000000000000;
+stepCount = 0;
+
+previousDistance = 0;
+bool_isFalling = 1;

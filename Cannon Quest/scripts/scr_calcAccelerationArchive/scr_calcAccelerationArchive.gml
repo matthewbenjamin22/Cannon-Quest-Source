@@ -2,7 +2,7 @@
 *  based on the current position and attractor.
 *  Return array [xAccel,yAccel]
 */
-function scr_calcAcceleration(currentAttractor, distanceToAttractor, xPos, yPos)
+function calcAccelerationArchive(currentAttractor, distanceToAttractor, xPos, yPos)
 {
 	//Compute the x and y distance from attractor
 	xDist = currentAttractor.x - xPos;
@@ -11,12 +11,15 @@ function scr_calcAcceleration(currentAttractor, distanceToAttractor, xPos, yPos)
 	//Calculate the percentage of totalDistance each x and y make.
 	xPercent = ((abs(xDist) * 100) / distanceToAttractor) / 100;
 	yPercent = 1-xPercent; //yPercent = ((yDist * 100) / distanceToAttractor) / 100;
-	show_debug_message("\txPercent: " + string(xPercent) + ". yPercent = " + string(yPercent));
+	if(AccelerationTestMode)
+		show_debug_message("\txPercent: " + string(xPercent) + ". yPercent = " + string(yPercent));
 	
 	
 	//Calculate total gravitational acceleration
 	totalAcceleration = calcGrav(currentAttractor, distanceToAttractor);
-	show_debug_message("\tTotal Acceleration = " + string(totalAcceleration));
+	
+	if(AccelerationTestMode)
+		show_debug_message("\tTotal Acceleration = " + string(totalAcceleration));
 	
 	//Calculate xPercent and yPercent of totalAcceleration, then return as an array
 	//Return array [xAccel, yAccel]

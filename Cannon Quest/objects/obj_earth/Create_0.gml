@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-currentAttractor = obj_moon;
 name = "Earth";
 soi = 200;
 mass = 5;
+vspeed = 0.2;

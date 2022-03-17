@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sun2",
-    "path": "sprites/spr_sun2/spr_sun2.yy",
+    "name": "spr_paused",
+    "path": "sprites/spr_paused/spr_paused.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Solar System Bodies",
-    "path": "folders/Objects/Solar System Bodies.yy",
+    "name": "Game Objects",
+    "path": "folders/Objects/Game Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sun_noPhysics",
+  "name": "obj_pauseObject",
   "tags": [],
   "resourceType": "GMObject",
 }

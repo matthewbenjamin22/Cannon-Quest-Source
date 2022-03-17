@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Moves the console line down by one
+
 show_debug_message(" ");
