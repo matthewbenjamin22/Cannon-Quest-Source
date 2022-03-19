@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Solar System Bodies",
-    "path": "folders/Sprites/Solar System Bodies.yy",
+    "name": "Solar System Test Bodies",
+    "path": "folders/Sprites/Solar System Test Bodies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_earth",
