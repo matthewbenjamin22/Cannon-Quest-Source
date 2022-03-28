@@ -1,0 +1,2 @@
+Click on any object to center the screen on it.
+Use the mouse wheel or the Page_Up and Page_Down keys to zoom in and out.

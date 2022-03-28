@@ -1,0 +1,31 @@
+UI Plan:
+
+
+Lower right: Cannon controls (CCW, CW, Up, and Down Button). Optional: Cannonball type selector
+Left Side: Celestial body focus menu (HOME, earth, moon, sun, mars, etc.)
+Bottom: Cannonball selector (Clear all cannonballs button on left of it, each cannonball can be click to take you there, or there might be a red x over them which allows you to delete that specific cannonball)
+Top: Checkboxes for: Tracer follow, camera follows fired cannonballs, toggle atmospheres, draw vector arrows.
+     Text input for: Change Constant of gravitation, change tracer delete time
+     Buttons for: Delete all tracers
+Top Right: Back to main menu.
+
+
+
+Main menu:
+Play Button
+	--> Earth+Moon, Mars+Moons, Solar System
+How to play
+	-->Basic Instructions
+What is Newton's Cannonball?
+	-->Brief writeup on the concept
+Settings
+	--> Resolution
+Credits
+	-->By Me
+Quit Game
+	-->Bye!
+
+
+Todo:
+-->Shadows for the celestial bodies
+-->

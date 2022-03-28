@@ -1,0 +1,1 @@
+/// @description Deletes the object
